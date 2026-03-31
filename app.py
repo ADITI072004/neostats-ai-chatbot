@@ -235,16 +235,21 @@ def chat_page():
         st.header("⚙️ Settings")
         
         # LLM Provider selection
+        provider_options = ["openai", "groq", "gemini"]
+        current_index = provider_options.index(st.session_state.llm_provider) if st.session_state.llm_provider in provider_options else 0
         st.session_state.llm_provider = st.selectbox(
             "Select LLM Provider",
-            options=["openai", "groq", "gemini"],
-            index=0
+            options=provider_options,
+            index=current_index
         )
         
         # Response mode selection
+        response_modes = list(RESPONSE_MODES.keys())
+        current_mode_index = response_modes.index(st.session_state.response_mode) if st.session_state.response_mode in response_modes else 0
         st.session_state.response_mode = st.selectbox(
             "Response Mode",
-            options=list(RESPONSE_MODES.keys()),
+            options=response_modes,
+            index=current_mode_index,
             format_func=lambda x: f"{x.capitalize()} - {RESPONSE_MODES[x]['description']}"
         )
         
