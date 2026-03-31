@@ -23,7 +23,6 @@ ENV/
 
 # Streamlit
 .streamlit/secrets.toml
-*.streamlit/
 
 # Data and models
 /data/
