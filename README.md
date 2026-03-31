@@ -2,7 +2,11 @@
 
 > An advanced AI chatbot with Retrieval-Augmented Generation (RAG), live web search, and multiple LLM providers.
 
-## 📋 Overview
+## � Live Demo
+
+**Try it now**: [https://aditi072004-neostats-ai-chatbot.streamlit.app](https://aditi072004-neostats-ai-chatbot.streamlit.app)
+
+## �📋 Overview
 
 NeoStats AI is a sophisticated chatbot application that combines:
 
@@ -83,8 +87,8 @@ NeoStats_AI_UseCase/
 **Clone the repository** (if using Git)
 
 ```bash
-git clone https://github.com/yourusername/NeoStats_AI_UseCase.git
-cd NeoStats_AI_UseCase
+git clone https://github.com/ADITI072004/neostats-ai-chatbot.git
+cd neostats-ai-chatbot
 ```
 
 **Create a virtual environment**
@@ -253,6 +257,16 @@ GEMINI_MODEL=gemini-1.5-flash  # or gemini-1.5-pro
 - **google-api-python-client**: Google Search API
 
 ## 🚀 Deployment
+
+### ✨ Live Instance
+
+**The application is already deployed and live!**
+
+- **Live URL**: [https://aditi072004-neostats-ai-chatbot.streamlit.app](https://aditi072004-neostats-ai-chatbot.streamlit.app)
+- **Status**: ✅ Fully operational with RAG, Web Search, and Multi-LLM support
+- **Repository**: [https://github.com/ADITI072004/neostats-ai-chatbot](https://github.com/ADITI072004/neostats-ai-chatbot)
+
+**Try it now!** No installation needed - just visit the link above.
 
 ### Streamlit Cloud (Recommended)
 
